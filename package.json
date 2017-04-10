@@ -1,0 +1,27 @@
+{
+  "name": "Workplace",
+  "version": "1.0.0",
+  "description": "Workplace",
+  "main": "index.js",
+  "author": "Niclas Helbro <niclas.helbro@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.facebook.com/",
+    "serviceName": "Workplace",
+    "hasTeamID": true,
+    "wording": {
+        "url": "facebook.com",
+        "team": "Workplace"
+    },
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
